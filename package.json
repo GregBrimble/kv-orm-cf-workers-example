@@ -27,5 +27,9 @@
     "typescript": "^3.5.3",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "kv-orm": "^0.3.2",
+    "kv-orm-cf-workers": "^0.2.2"
   }
 }

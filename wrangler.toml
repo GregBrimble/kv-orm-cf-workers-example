@@ -2,5 +2,5 @@ name = "kv-orm-cf-workers-example"
 type = "webpack"
 zone_id = ""
 private = false
-account_id = ""
+account_id = "5a883b414d4090a1442b20361f3c43a9"
 route = ""
