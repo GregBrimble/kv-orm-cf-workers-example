@@ -1,0 +1,6 @@
+name = "kv-orm-cf-workers-example"
+type = "webpack"
+zone_id = ""
+private = false
+account_id = ""
+route = ""
