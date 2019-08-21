@@ -29,7 +29,7 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "kv-orm": "^0.3.2",
-    "kv-orm-cf-workers": "^0.2.2"
+    "kv-orm": "file:../kv-orm/packages/kv-orm",
+    "kv-orm-cf-workers": "file:../kv-orm/packages/kv-orm-cf-workers"
   }
 }
