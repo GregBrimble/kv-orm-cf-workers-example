@@ -3,13 +3,14 @@
     "outDir": "./dist",
     "module": "commonjs",
     "target": "es5",
-    "lib": ["es5", "webworker"],
+    "lib": ["es5", "es2015", "webworker"],
     "alwaysStrict": true,
     "strict": true,
     "preserveConstEnums": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true
   },
   "include": [
     "./src/*.ts",
