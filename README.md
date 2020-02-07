@@ -1,4 +1,6 @@
 # ʕ •́؈•̀) `worker-typescript-template`
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGregBrimble%2Fkv-orm-cf-workers-example.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGregBrimble%2Fkv-orm-cf-workers-example?ref=badge_shield)
+
 
 A batteries included template for kick starting a TypeScript Cloudflare worker project.
 
@@ -35,3 +37,7 @@ If you run into issues with this specific project, please feel free to file an i
 ## Caveats
 
 The `service-worker-mock` used by the tests is not a perfect representation of the Cloudflare Workers runtime. It is a general approximation. We recommend that you test with `wrangler preview` and in a staging environment to test things before deploying.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGregBrimble%2Fkv-orm-cf-workers-example.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGregBrimble%2Fkv-orm-cf-workers-example?ref=badge_large)
