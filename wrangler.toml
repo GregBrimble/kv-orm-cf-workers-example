@@ -2,7 +2,8 @@ name = "kv-orm-cf-workers-example"
 type = "webpack"
 workers_dev = true
 account_id = "5a883b414d4090a1442b20361f3c43a9"
+webpack_config = "webpack.config.js"
 
 kv-namespaces = [
-  { binding = "myKVNamespace", id = "055a58481f8f49019da7fb2070fe45f9" }
+  { binding = "CFKVNamespace", id = "79dd6eebfdf44e5696760e592e56d09e" }
 ]
