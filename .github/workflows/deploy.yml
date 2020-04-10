@@ -17,8 +17,11 @@ jobs:
         uses: actions/setup-node@v1.2.0
         with:
           fetch-depth: 1
+          registry-url: 'https://npm.pkg.github.com'
       - name: Install
         run: npm install
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish
         uses: cloudflare/wrangler-action@1.1.0
         with:
